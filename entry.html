@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1024px; height:1024px; background:#F2EDE3; font-family:'DejaVu Sans',sans-serif; color:#14213D; }
+  .page { width:1024px; height:1024px; display:flex; flex-direction:column; border:8px solid #14213D; }
+
+  /* masthead */
+  .mast { background:#14213D; color:#F2EDE3; padding:24px 30px 18px; text-align:center; border-bottom:6px solid #B5342A; }
+  .kicker { font-size:21px; letter-spacing:8px; color:#E8B44F; font-weight:bold; }
+  .date { font-family:'DejaVu Serif',serif; font-size:86px; font-weight:bold; letter-spacing:1px; line-height:1.02; margin-top:6px; }
+  .sub { font-size:18px; letter-spacing:3px; margin-top:9px; color:#C9D3E4; }
+
+  /* grid */
+  .grid { flex:1; display:grid; grid-template-columns:1fr 1fr 1fr; grid-template-rows:1fr 1fr; gap:10px; padding:14px; }
+  .card { background:#FBF8F1; border:3px solid #14213D; padding:13px 13px 11px; display:flex; flex-direction:column; position:relative; }
+  .chip { align-self:flex-start; font-size:14px; font-weight:bold; letter-spacing:1.2px; color:#FBF8F1; padding:4px 10px; }
+  .icon { position:absolute; right:12px; top:46px; width:54px; height:54px; }
+  .hl { font-size:28px; font-weight:bold; line-height:1.1; margin-top:12px; padding-right:8px; letter-spacing:-0.3px; }
+  .hl2 { padding-right:62px; }
+  .dt { font-size:16px; line-height:1.34; margin-top:auto; color:#2B3A5C; border-top:2px solid #14213D; padding-top:8px; }
+
+  /* footer */
+  .foot { background:#14213D; color:#F2EDE3; padding:13px 22px; display:flex; align-items:center; gap:16px; }
+  .ftag { flex:none; background:#B5342A; color:#fff; font-weight:bold; font-size:15px; letter-spacing:2px; padding:4px 10px; }
+  .ftxt { font-size:16.5px; letter-spacing:0.3px; color:#E7DFCE; white-space:nowrap; }
+</style></head>
+<body><div class="page">
+
+  <div class="mast">
+    <div class="kicker">THE WORLD IN ONE IMAGE</div>
+    <div class="date">22 NOVEMBER 2026</div>
+    <div class="sub">SUNDAY &middot; THE DAY'S WORLD NEWS &middot; SIX REGIONS</div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <span class="chip" style="background:#B5342A;">AMERICAS</span>
+      <svg class="icon" viewBox="0 0 64 64"><rect x="8" y="6" width="48" height="14" rx="4" fill="#14213D"/><rect x="8" y="25" width="48" height="14" rx="4" fill="#14213D" opacity=".55"/><rect x="8" y="44" width="48" height="14" rx="4" fill="#B5342A"/><path d="M46 12l4 5 4-5" stroke="#E8B44F" stroke-width="3" fill="none"/><circle cx="16" cy="51" r="4" fill="#E8B44F"/></svg>
+      <div class="hl hl2">MEXICO SEIZES "EL CHAPO ISIDRO"</div>
+      <div class="dt">Army captures cartel boss on FBI's most-wanted list; 11 die in firefight</div>
+    </div>
+
+    <div class="card">
+      <span class="chip" style="background:#C97B1F;">PERSIAN GULF</span>
+      <svg class="icon" viewBox="0 0 64 64"><rect x="14" y="34" width="36" height="22" fill="#14213D"/><rect x="22" y="40" width="8" height="8" fill="#F2EDE3"/><rect x="36" y="40" width="8" height="8" fill="#F2EDE3"/><path d="M32 6 L40 22 L36 22 L44 36 L20 36 L28 22 L24 22 Z" fill="#B5342A"/><path d="M50 12 q4 6 0 12" stroke="#B5342A" stroke-width="3" fill="none"/></svg>
+      <div class="hl hl2">IRAN HITS US ALLIES IN GULF</div>
+      <div class="dt">Bahrain industrial site ablaze; tankers struck; Qatar mediates in Tehran</div>
+    </div>
+
+    <div class="card">
+      <span class="chip" style="background:#2E6E65;">UKRAINE &amp; RUSSIA</span>
+      <svg class="icon" viewBox="0 0 64 64"><path d="M6 44 h52" stroke="#14213D" stroke-width="5"/><path d="M18 44 L32 22 L46 44" stroke="#14213D" stroke-width="5" fill="none"/><rect x="26" y="10" width="12" height="5" rx="2" fill="#B5342A"/><path d="M24 15 l-5 8 M40 15 l5 8" stroke="#B5342A" stroke-width="3"/><circle cx="32" cy="30" r="3" fill="#B5342A"/></svg>
+      <div class="hl hl2">RUSSIA BATTERS UKRAINE</div>
+      <div class="dt">Barrage kills 8; Crimea Bridge hit; Russian cargo ship ablaze in Gulf of Finland</div>
+    </div>
+
+    <div class="card">
+      <span class="chip" style="background:#7A5FA0;">ANDES</span>
+      <svg class="icon" viewBox="0 0 64 64"><path d="M4 46 L20 26 L30 38 L44 18 L60 46 Z" fill="#14213D"/><path d="M6 52 q6 -8 12 0 q6 8 12 0 q6 -8 12 0 q6 8 12 0" stroke="#B5342A" stroke-width="4" fill="none"/></svg>
+      <div class="hl">M6.9 QUAKE ROCKS PERU</div>
+      <div class="dt">Andes tremor empties cinemas; no casualties reported</div>
+    </div>
+
+    <div class="card">
+      <span class="chip" style="background:#2E7D4F;">GLOBAL</span>
+      <svg class="icon" viewBox="0 0 64 64"><circle cx="32" cy="32" r="22" fill="none" stroke="#14213D" stroke-width="4"/><path d="M12 32 h40 M32 10 c-12 14 -12 30 0 44 M32 10 c12 14 12 30 0 44" stroke="#14213D" stroke-width="3" fill="none"/><path d="M40 40 q10 -4 12 -14 q-12 0 -14 10 q-1 3 2 4z" fill="#2E7D4F"/></svg>
+      <div class="hl hl2">COP31 RUNS INTO OVERTIME</div>
+      <div class="dt">Fossil-fuel standoff delays final climate deal in Antalya</div>
+    </div>
+
+    <div class="card">
+      <span class="chip" style="background:#3B5BA5;">WASHINGTON</span>
+      <svg class="icon" viewBox="0 0 64 64"><ellipse cx="32" cy="14" rx="20" ry="7" fill="#14213D"/><path d="M12 14 v14 c0 4 9 7 20 7 s20 -3 20 -7 V14" fill="#14213D" opacity=".55"/><path d="M12 28 v14 c0 4 9 7 20 7 s20 -3 20 -7 V28" fill="#14213D" opacity=".3"/><path d="M30 40 l10 -10 M40 30 h8 v8" stroke="#B5342A" stroke-width="4" fill="none"/></svg>
+      <div class="hl hl2">FBI CRIME DATABASE HACKED</div>
+      <div class="dt">Suspected breach of national crime records; personal data at risk</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span class="ftag">MARKETS</span>
+    <span class="ftxt">Tech selloff drags stocks &middot; Bitcoin near two-year low &middot; Anthropic IPO pop fades</span>
+  </div>
+
+</div></body></html>
