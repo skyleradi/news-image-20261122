@@ -8,8 +8,10 @@ A one-day broadsheet that sums up 22 November 2026's world news in one
 1024×1024 image: six fronts (Mexico's capture of the cartel boss 'El Chapo
 Isidro', Iran's claimed tanker strike in the Gulf, Russia's barrage on
 Ukraine's grid, Peru's 6.9 quake, COP31 overtime, the FBI database-breach
-review), a numbers strip, THE TALLY (11 + 8 = 19, reconciled everywhere),
-THE WIRE (eight one-line briefs) and MARKETS & CRYPTO. Rebuilt from judge
+review), a world-map band marking where the day happened, a numbers strip,
+THE TALLY (11 + 8 = 19, reconciled everywhere, with proportional bars),
+THE WIRE (eight one-line briefs) and MARKETS & CRYPTO with inline bar
+charts. Rebuilt from judge
 feedback on the earlier dense version: no hype badges or gauges, no
 micro-text — every string is at least 16 px bold and was verified legible
 at 300 px, with each number stated consistently. Six AI-generated editorial
